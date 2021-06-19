@@ -1,4 +1,4 @@
-import React, {useContext, useEffect, useState} from 'react';
+import React, {useContext} from 'react';
 import {PaginationContext} from '../context/pagination';
 //getting useFetch to fetch url
 import useFetch from '../hooks/useFetch';

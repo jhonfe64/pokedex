@@ -3,7 +3,7 @@ import PokeDetails from '../elements/pokemonDetailsStyles';
 import {PokemonInfoContext} from '../context/pokemonInfo';
 
 function PokemonDetails() {
-  const {pokemonInfo, updatePokemonInfo} = useContext(PokemonInfoContext);
+  const {pokemonInfo} = useContext(PokemonInfoContext);
  
 
     return (

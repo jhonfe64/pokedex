@@ -1,5 +1,4 @@
-import React, {useEffect, useState, useContext} from 'react';
-import {PaginationContext} from '../context/pagination';
+import {useEffect, useState} from 'react';
 
 
 const useFetch = (url, item) => {

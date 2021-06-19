@@ -1,4 +1,4 @@
-import React, {useEffect, useContext, useState, useRef} from 'react';
+import React, {useEffect, useContext, useState} from 'react';
 import {PokemonInfoContext} from '../context/pokemonInfo';
 import useFetch from '../hooks/useFetch';
 import PokeCard from '../elements/pokemonCardStyles';

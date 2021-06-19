@@ -10,7 +10,6 @@ function PaginationContextProvider({children}){
         setPokemonsPerPage(pokemonsPerPage)
     }
 
-    console.log('estado actual del estado de paginacion', pokemosPerPage);
 
     return (
         <PaginationContext.Provider value = {{pokemosPerPage, updatePokemosPerPage}}>

@@ -8,7 +8,6 @@ function PokemonInfoContextProvider({children}){
     //Updating context function
 
     const  updatePokemonInfo = (pokemonInfo) => {
-        console.log('actualizando info del pokemon', pokemonInfo)
         setPokemonInfo(pokemonInfo);
     }
 

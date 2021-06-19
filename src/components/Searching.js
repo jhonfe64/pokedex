@@ -7,7 +7,7 @@ import {PokemonInfoContext} from '../context/pokemonInfo';
 
 function Searching() {
     //pokemonInfo context
-    const {pokemonInfo, updatePokemonInfo} = useContext(PokemonInfoContext);
+    const {updatePokemonInfo} = useContext(PokemonInfoContext);
 
     const [pokemonName, setPokemonName] = useState('');
     const [inputValue, setInputValue] = useState('');
@@ -46,8 +46,6 @@ function Searching() {
         }
     },[data.name, btnState])
 
-   
-    console.log('pokemon info', pokemonInfo);
     return (
         <PokeSearch>
             <div>

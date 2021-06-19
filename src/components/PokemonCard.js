@@ -58,7 +58,7 @@ if(filters === true){
             {
                 pokemons.map((pokeInfo)=>{
                     return(
-                      <div  onClick={()=>handlePokemonInfo(pokeInfo)}>
+                      <div  key={pokeInfo.name}  onClick={()=>handlePokemonInfo(pokeInfo)}>
                         <img src={pokeInfo.sprites.front_default} alt={pokeInfo.name} />
                         <h3>{pokeInfo.name}</h3>
                       </div>

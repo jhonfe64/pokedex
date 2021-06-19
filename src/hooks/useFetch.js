@@ -18,7 +18,6 @@ const useFetch = (url, item) => {
                 }
             }
             catch(e){
-                console.log(e.name + " " + e.message);
                 setError(e.message);
             }
         }

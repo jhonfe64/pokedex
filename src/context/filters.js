@@ -9,8 +9,6 @@ function FilterContextProvider({children}){
         setFilters(filter)
     }
 
-    console.log('estado actual de los filtros', filters);
-
     return (
         <FilterContext.Provider value={{filters, updateFilters}}>
             {children}

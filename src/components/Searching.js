@@ -20,7 +20,7 @@ function Searching() {
     const handleBtn = () => {
         setBtnState(true)
         if(pokemonName !== ''){
-            setInputValue(pokemonName.trim());
+            setInputValue(pokemonName.trim().toLowerCase());
             setSearchingAlert(false);
         }else{
             setSearchingAlert(true);

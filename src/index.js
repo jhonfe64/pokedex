@@ -3,10 +3,19 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import {PaginationContextProvider} from './context/pagination';
+import {PokemonInfoContextProvider} from './context/pokemonInfo';
+import {FilterContextProvider} from './context/filters';
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <FilterContextProvider>
+      <PaginationContextProvider>
+        <PokemonInfoContextProvider>
+          <App />
+        </PokemonInfoContextProvider>
+      </PaginationContextProvider>
+    </FilterContextProvider>
   </React.StrictMode>,
   document.getElementById('root')
 );

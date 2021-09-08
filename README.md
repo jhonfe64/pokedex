@@ -19,7 +19,7 @@ on vsc console type:
 
 type on vsc console => npm start
 
-## check the app deployed in vercel https://reward-store.vercel.app
+## check the app deployed in vercel https://pokedex-eight-rosy.vercel.app
 
 
 

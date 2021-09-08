@@ -1,4 +1,4 @@
-# Reward store
+# Pokedex
 
 This web application built in react.js allows users to search for an specific pokemon an get all information of it, includes an infinite pagination
 
@@ -11,7 +11,7 @@ styled components
 
 on vsc console type: 
 
-- git clone https://github.com/jhonfe64/rewardStore.git
+- git clone https://github.com/jhonfe64/pokedex.git
 - Use npm i to install all dependences 
 
 
@@ -19,7 +19,7 @@ on vsc console type:
 
 type on vsc console => npm start
 
-## check the app deployed in vercel https://pokedex-eight-rosy.vercel.app
+## check the app deployed in vercel https://pokedex-eight-rosy.vercel.app 
 
 
 

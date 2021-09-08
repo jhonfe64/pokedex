@@ -23,8 +23,8 @@ type on vsc console => npm start
 
 
 
-![](https://github.com/jhonfe64/rewardStore/blob/master/reward1.png?raw=true)
+![](https://github.com/jhonfe64/pokedex/blob/master/poke1.png?raw=true)
 ###
-![](https://github.com/jhonfe64/rewardStore/blob/master/reward2.png?raw=true)
+![](https://github.com/jhonfe64/pokedex/blob/master/poke2.png?raw=true)
 ###
-![](https://github.com/jhonfe64/rewardStore/blob/master/reward3.png?raw=true)
+![](https://github.com/jhonfe64/pokedex/blob/master/poke3.png?raw=true)

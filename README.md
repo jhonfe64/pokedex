@@ -1,4 +1,4 @@
-# Pokedex
+# Pokedex React
 
 This web application built in react.js allows users to search for an specific pokemon an get all information of it, includes an infinite pagination
 
